@@ -57,6 +57,7 @@ https://templatemo.com/tm-538-digital-trend
 
     --border-radius-large:  100px;
     --border-radius-small:  5px;
+    --border-radius-medium: 20px
   }
 
   body {
@@ -519,8 +520,8 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .blog-sidebar img {
-    border-radius: var(--border-radius-small);
-    width: 159px;
+    border-radius: var(--border-radius-medium);
+    width: 400px;
     margin-right: 22px;
   }
 
