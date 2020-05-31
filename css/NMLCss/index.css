@@ -2,3 +2,8 @@
     max-width:500px;
     max-height:500px;
 }
+
+.project-wrapper img{
+
+    max-height: 595px;
+}
