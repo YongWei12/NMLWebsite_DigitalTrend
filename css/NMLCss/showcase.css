@@ -1,0 +1,14 @@
+.blog-sidebar img{
+    
+    width: 600px;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+}
+
+.blog-info h4 a{
+    color: #00848c;
+}
+.blog-info h4 a:hover{
+    text-decoration: underline;
+}

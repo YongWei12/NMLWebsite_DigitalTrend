@@ -7,3 +7,17 @@
 
     max-height: 595px;
 }
+
+.owl-carousel .item img{
+    border-radius: 30px;
+    border-style: solid;
+    border-color:#edebd9;
+    border-width: 5px;
+}
+.contact-image{
+    margin-right: 3em;
+}
+
+.contact-image img{
+    border-radius: 30px;
+}
