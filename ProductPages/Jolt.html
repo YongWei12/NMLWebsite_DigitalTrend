@@ -26,6 +26,7 @@ https://templatemo.com/tm-538-digital-trend
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="../css/templatemo-digital-trend.css">
+  <link rel="stylesheet" href="../css/NMLCss/ProductPage/productPage.css">
   <script src="https://kit.fontawesome.com/e91d4f441e.js" crossorigin="anonymous"></script>
 
 </head>
@@ -66,12 +67,13 @@ https://templatemo.com/tm-538-digital-trend
   </nav>
 
 
+
   <!-- PROJECT DETAIL -->
   <section class="project-detail section-padding-half">
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-9 mx-auto col-md-10 col-12 mt-lg-5 text-center" data-aos="fade-up">
+        <div class="col-lg-9 mx-auto col-md-10 col-12 mt-lg-5 text-center" id="header-title" data-aos="fade-up">
           <h1>Jolt</h1>
         </div>
 
@@ -79,102 +81,149 @@ https://templatemo.com/tm-538-digital-trend
     </div>
   </section>
 
-  <div class="full-image text-center" data-aos="zoom-in">
-    <img src="../images/ProjectPictures/hilighter.jpeg" class="img-fluid" alt="interview process">
-  </div>
+  <!-- <div class="full-image text-center" data-aos="zoom-in">
+    <img src="../images/Carousel_Images/TheHighlighter.png" class="img-fluid" alt="interview process">
+  </div> -->
+
 
   <!-- PROJECT DETAIL -->
-  <section class="project-detail section-padding">
-    <div class="container">
+  <section class="project-detail">
+    <div class="container project-detail-container">
       <div class="row">
         <!--blog detail-->
+        <div class="col-lg-5 mx-auto col-md-12 col-12 my-5 pt-3" data-aos="fade-up">
+          <div class="full-image text-center" data-aos="zoom-in">
+            <img src="../images/Carousel_Images/Jolt News.png" class="img-fluid" alt="interview process">
+          </div>
+        </div>
 
-        <div class="col-lg-9 mx-auto col-md-11 col-12 my-5 pt-3" data-aos="fade-up">
+        <div class="col-lg-7 mx-auto col-md-12 col-12 my-5 pt-3" data-aos="fade-up">
 
           <h2 class="mb-3">About the Product</h2>
 
-          <p>Jolt is a Telegram bot for users to read Singapore news and to create their own personal news bulletins.</p>
+          <p>Jolt is a Telegram bot for users to read Singapore news and to create their own personal news bulletins.
+          </p>
 
           <p>We want news readers to start discussions about news they care about and feel empowered by it.</p>
 
-          <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus elementum, tempor risus vel,
-            condimentum orci.</p>
+          <!-- 
+          <ul class="list-detail py-3">
+            <li><span>Brings the news to right where they are, and</span></li>
 
-          <h2 class="mt-5 mb-3">Usage</h2>
+            <li><span>Makes reading and sharing news fun.</span></li>
+
+          </ul> -->
+        </div>
+        <div class="col-lg-9 mx-auto col-md-11 col-12 my-5 pt-3" data-aos="fade-up">
+          <br>
 
           <p>Jolt uses slash commands to execute tasks.</p>
 
-            <ul class="list-detail py-3">
+          <ul class="list-detail py-3">
 
-              <li><span><b>/start</b> sends the news bulletin.</span></li>
-  
-              <li><span><b>/search</b> initiates a news search. Use <b>/search (your search query)</b> to immediately get Jolt to search for <b>(your search query)</b>.</span></li>
-              
-              <li><span><b>/help</b> shows the user what Jolt can do.</span></li>
-            </ul>
+            <li><span><b>/start</b> sends the news bulletin.</span></li>
 
+            <li><span><b>/search</b> initiates a news search. Use <b>/search (your search query)</b> to immediately get
+                Jolt to search for <b>(your search query)</b>.</span></li>
+
+            <li><span><b>/help</b> shows the user what Jolt can do.</span></li>
+          </ul>
+
+          <p>Jolt uses inline keyboards to build its menus.</p>
+
+          <ul class="list-detail py-3">
+
+            <li><span><b>Main menu</b> - The main menu presents the user with a list of five of the top headlines for
+                Singapore news from newsapi.org.</span></li>
+
+            <li><span><b>Sub-menu</b> - Clicking to read the story from the bulletin's main menu shows the individual
+                news stories that have been summarised using newspaper3k.</span></li>
+
+            <li><span>Users may also: (1) read the full story by clicking the "Read full story here" hyperlink;
+                (2) toggle to other stories of the same topic using the story's navigation buttons, Prev or Next;
+                or (3) return to the main menu with the Return to stories button.</span></li>
+          </ul>
+
+          <h2>Future Iterations</h2>
+          <br>
+          <p>What we have now is a working prototype. We hope to improve and add on to Jolt's current capabilities.
+            These include:</p>
+
+          <ul class="list-detail py-3">
+
+            <li><span>A user interface for news personalisation and scheduling.</span></li>
+
+            <li><span>Having a better user experience (UX), such as smoother tutorials for first-time users.</span></li>
+
+            <li><span>Being able to handle conversations in a casual or more organic manner.</span></li>
+
+            <li><span>Being able to subsrcribe to specific news tags or keywords.</span></li>
+
+            <li><span>Being able 'like' news stories to gauge its popularity.</span></li>
+
+            <li><span>Having interactive quizzes.</span></li>
+
+            <li><span>Enabling different types of content such as videos and podcasts to be easily accessible.</span>
+            </li>
+
+          </ul>
+
+          <!--<h2 class="mt-5 mb-3">The Highlighter Sharing Ecosystem</h2>
+
+           <blockquote>As the users share more news that is relevant to their lives, it creates a cycle of sharing
+            amongst their friends. With The Highlighter, young people can catch up with the news, and news outlets can
+            catch up with technology to capture their youth readers.</blockquote>
+          <img class="indentPhoto" src="../images/NMLPictures/hilighter/comic-strip.jpg" alt="comic-strip" /> -->
         </div>
 
-        <p>Jolt uses inline keyboards to build its menus.</p>
 
-        <ul class="list-detail py-3">
 
-          <li><span><b>Main menu</b> - The main menu presents the user with a list of five of the top headlines for Singapore news from newsapi.org.</span></li>
+        <!-- <div class="col-lg-12 col-12 YouTube-container"> -->
+        <div style="text-align: center;" class="col-lg-9 mx-auto col-md-11 col-12 my-5 pt-3" data-aos="fade-up">
+          <h2>Product Demo</h2>
+          <br><br>
+          <div  data-aos="fade-up">
+            <img style="max-width: 300px; height: auto; " src="../images/NMLPictures/jolt/jolt_demo.gif" />
+          </div>
+        </div>
 
-          <li><span><b>Sub-menu</b> - Clicking to read the story from the bulletin's main menu shows the individual news stories that have been summarised using newspaper3k.</span></li>
-          
-          <li><span>Users may also: (1) read the full story by clicking the "Read full story here" hyperlink;
-            (2) toggle to other stories of the same topic using the story's navigation buttons, Prev or Next;
-            or (3) return to the main menu with the Return to stories button.</span></li>
-        </ul>
+        <div class="col-lg-9 mx-auto col-12" data-aos="fade-up">
+          <div class="client-info mt-lg-5 py-lg-5">
+            <h2>Industry Mentor</h2>
 
-    </div>
+            <div class="d-flex align-items-center mt-3">
+              <img src="../images/project/project-detail/male-avatar.png" class="img-fluid" alt="male avatar">
 
+              <p>Harish Pillay from Red Hat</p>
+            </div>
+          </div>
+        </div>
 
         <!--project detail-->
 
-        <div class="col-lg-6 col-md-6 col-12 mb-5">
+        <div class="col-lg-6 col-md-6 col-12 mb-5 teamPhoto-container">
 
-          <img src="../images/project/project-detail/personal-website.png" class="img-fluid" alt="personal website"
+          <img id="teamPhoto" src="../images/NMLPictures/hilighter/team_ST.jpg" class="img-fluid" alt="personal website"
             data-aos="fade-up">
         </div>
 
         <div class="col-lg-5 col-md-6 mr-lg-auto mt-lg-5 col-12" data-aos="fade-up" data-aos-delay="200">
 
-          <h2>Pellentesque pretium interdum</h2>
+          <h2>The Team</h2>
 
-          <p class="mt-3 mb-4">Nunc sapien nulla, interdum at diam non, aliquam vestibulum leo. Fusce laoreet malesuada
-            ante, consectetur consequat.</p>
+          <p class="mt-3 mb-4">The ST Schools team consists of dynamic individuals from multi-disciplinary
+            backgrounds, ranging from the fields of communication, art and design, and computer programming.</p>
 
           <ul class="list-detail">
-            <li><span>Curabitur commodo a sapien non</span></li>
-            <li><span>Sed facilisis convallis turpis</span></li>
-            <li><span>Quisque placerat augue neque</span></li>
-            <li><span>Nullam fringilla arcu a tortor</span></li>
+            <li><span>Journalists: Eugene Tang, Tan Yu Jia</span></li>
+            <li><span>Designers: Pamela Cheng, Bryan Chua, Tan Xiang Rei</span></li>
+            <li><span>Developer: Renganathan Ramasamy</span></li>
           </ul>
         </div>
       </div>
 
-      <div class="col-lg-12 col-12">
-        <div class="embed-responsive embed-responsive-16by9 my-5 py-5" data-aos="fade-up">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/xKW8EIdNf3o" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-lg-9 mx-auto col-12" data-aos="fade-up">
-        <div class="client-info mt-lg-5 py-lg-5">
-          <h3>Curabitur egestas mollis tellus sit amet porttitor. Sed leo nisl, posuere at molestie ac, suscipit auctor
-            mauris. Etiam quis metus elementum, tempor risus vel.</h3>
-
-          <div class="d-flex align-items-center mt-3">
-            <img src="../images/project/project-detail/male-avatar.png" class="img-fluid" alt="male avatar">
-
-            <p>Angelo Sharp, Creative Director</p>
-          </div>
-        </div>
-      </div>
     </div>
+
   </section>
 
 
