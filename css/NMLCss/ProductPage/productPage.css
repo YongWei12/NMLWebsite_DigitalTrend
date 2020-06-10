@@ -2,9 +2,12 @@
     margin-top: 50px;
 }
 
+.full-image{
+    margin-right: 20px;
+}
+
 .full-image img{
-    max-width: 45%;
-    height: auto;
+    border-radius: 30px;
 }
 
 .indentPhoto{
@@ -12,16 +15,23 @@
     height: auto;
 }
 
-.YouTube{
+/* .YouTube{
     margin: auto;
     max-width: 70%;
     height: auto;
-}
+} */
 .teamPhoto-container{
     padding-top: 60px;
 }
 
+
 #teamPhoto{
     border-radius: 30px;
+    width: 90%;
+    height: auto;
 
+}
+
+.project-detail-container{
+    margin-bottom: 100px;
 }
