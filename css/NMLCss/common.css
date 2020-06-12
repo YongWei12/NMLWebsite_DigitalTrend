@@ -26,3 +26,12 @@
 .dropdown-content a:hover {
     color: #f1c111;
 }
+
+@media screen and (max-width: 600px) {
+    #nav-showcase:hover .dropdown-content {
+        display: none;
+    }
+    #nav-showcase i {
+        display: none;
+    }
+}
