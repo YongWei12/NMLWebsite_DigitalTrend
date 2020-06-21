@@ -1,0 +1,38 @@
+#nav-showcase:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    margin-left: 20px;
+    /*min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #f1c111;
+}
+
+@media screen and (max-width: 600px) {
+    #nav-showcase:hover .dropdown-content {
+        display: none;
+    }
+    #nav-showcase i {
+        display: none;
+    }
+}
