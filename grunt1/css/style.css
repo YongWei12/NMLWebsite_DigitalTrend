@@ -7,17 +7,25 @@
     font-style: normal;
 }
 
-h1 {
-    font-family: volkhov-regular;
+@font-face {
+    font-family: 'playfair-display';
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* h1 {
+    font-family: playfair-display;
 }
 
 h2 {
-    font-family: volkhov-regular;
+    font-family: playfair-display;
 }
 
 h3 {
-    font-family: volkhov-regular;
-}
+    font-family: playfair-display;
+} */
 
 body {
     line-height: 1.7;
