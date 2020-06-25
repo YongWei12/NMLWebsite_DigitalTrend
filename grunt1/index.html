@@ -103,7 +103,8 @@
                             <div class="text">
                                 <p class="sub-text mb-5">Building innovative storytelling tools for online news media.
                                 </p>
-                                <p><a href="#portfolio-section" target="_blank" class="smooth-scroll-a btn btn-outline-primary btn-md">View our work</a>
+                                <!--btn-outline-primary(removed this from view our work class) -->
+                                <p><a href="#portfolio-section" target="_blank" class="smooth-scroll-a btn btn-md" id="view-our-work">View our work</a>
                                 </p>
                             </div>
                         </div>
@@ -120,9 +121,10 @@
                         <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/E8L2cR_DI5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <!-- <img src="./images/glint_about_1.jpg" class="img-fluid" /> -->
                     </div>
-                    <div class="col-lg-6 ml-auto section-title">
+                    <div class="col-lg-6 ml-auto section-title text-justify">
                         <span class="sub-title mb-2 d-block">Who we are</span>
-                        <h2 class="title text-primary mb-3">About us</h2>
+                        <!--text-primary (removed class from about us tag-->
+                        <h2 class="title mb-3 red-header">About us</h2>
                         <p class="mb-4">News Media Lab is an undergraduate innovation practicum offered at the Wee Kim Wee School of Communication & Information (Nanyang Technological University Singapore).</p>
 
                         <p>Launched in 2019, the lab brings together student journalists, designers and developers from different schools (WKWSCI, Engineering, Computer Science and Art, Design & Media) to create news media storytelling tools and products
@@ -153,7 +155,7 @@
                 <div class="row mb-5">
                     <div class="col-lg-6 section-title">
                         <span class="sub-title mb-2 d-block">What We Do</span>
-                        <h2 class="title text-primary">Bringing together interdisciplinary students
+                        <h2 class="title red-header">Bringing together interdisciplinary students
                         </h2>
                     </div>
                 </div>
@@ -161,7 +163,7 @@
                     <div class="col-lg-10 ml-auto">
                         <div class="row">
                             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                                <div class="service h-100">
+                                <div class="service h-100" id="service-communication">
                                     <h3>Communication</h3>
                                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                     </p>
@@ -169,7 +171,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                                <div class="service h-100">
+                                <div class="service h-100" id="service-design">
                                     <h3>Design</h3>
                                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                     </p>
@@ -177,7 +179,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                                <div class="service h-100">
+                                <div class="service h-100" id="service-development">
                                     <h3>Development</h3>
                                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                     </p>
@@ -208,28 +210,31 @@
                         <div class="row">
                             <div class="col-lg-11 ml-auto mr-auto">
                                 <div class="pr-lg-0">
-                                    <h3>Jessica Tan</h3>
-                                    <span class="mb-4 d-block">Lecturer, Wee Kim Wee School of Communication and
-                                        Information</span>
-                                    <p>Jessica Tan is a business journalism lecturer at the Wee Kim Wee School of Communication and Information (NTU), where she also teaches online magazine and final year features projects. Lately, she has been exploring
-                                        news media innovation in the classroom through the News Media Lab.</p>
+                                    <div class="text-justify">
+                                        <h3>Jessica Tan</h3>
+                                        <span class="mb-4 d-block">Lecturer, Wee Kim Wee School of Communication and
+                                            Information</span>
+                                        <p>Jessica Tan is a business journalism lecturer at the Wee Kim Wee School of Communication and Information (NTU), where she also teaches online magazine and final year features projects. Lately, she has been exploring
+                                            news media innovation in the classroom through the News Media Lab.</p>
 
-                                    <p>Prior to NTU, she worked as a reporter/writer across newspaper, television, newswire and magazine formats. Her work has appeared in leading publications such as Dow Jones Newswires, Forbes Asia and The Straits Times.
-                                        She’s equally comfortable interviewing billionaire CEOs, celebrities or the man on the street. Some memorable assignments to date: Spending a day with Warren Buffett in Omaha, Nebraska in 2001; covering the SARs
-                                        outbreak in 2003; traveling to Zhuo Zhou, a small city in Northern China's Hebei province, in 2007 to dissect Nokia's strategy in penetrating rural markets in China; swimming with whale sharks in Western Australia
-                                        in 2008; & spending time with explorer Mike Horn and his team as they sailed through the Great Barrier Reef on the Pangaea expedition in 2009.</p>
+                                        <p>Prior to NTU, she worked as a reporter/writer across newspaper, television, newswire and magazine formats. Her work has appeared in leading publications such as Dow Jones Newswires, Forbes Asia and The Straits Times.
+                                            She’s equally comfortable interviewing billionaire CEOs, celebrities or the man on the street. Some memorable assignments to date: Spending a day with Warren Buffett in Omaha, Nebraska in 2001; covering the
+                                            SARs outbreak in 2003; traveling to Zhuo Zhou, a small city in Northern China's Hebei province, in 2007 to dissect Nokia's strategy in penetrating rural markets in China; swimming with whale sharks in Western
+                                            Australia in 2008; & spending time with explorer Mike Horn and his team as they sailed through the Great Barrier Reef on the Pangaea expedition in 2009.
+                                        </p>
 
-                                    <p>Jessica also writes short stories, one of which won an Honourable Mention at the national Golden Point Award in 2013. Her short story, Dragon Girl, was anthologized in Twenty-Two New Asian Short Stories (Edited by Mohammad
-                                        A. Quayum, Silverfish Books) in 2016. She was also awarded an NAC Arts Creation Grant in 2013. She earned her post-graduate degree in journalism at the Medill School of Journalism, Northwestern University in 2002,
-                                        and holds a BA (History) degree from the National University of Singapore (1999).
-                                    </p>
+                                        <p>Jessica also writes short stories, one of which won an Honourable Mention at the national Golden Point Award in 2013. Her short story, Dragon Girl, was anthologized in Twenty-Two New Asian Short Stories (Edited
+                                            by Mohammad A. Quayum, Silverfish Books) in 2016. She was also awarded an NAC Arts Creation Grant in 2013. She earned her post-graduate degree in journalism at the Medill School of Journalism, Northwestern University
+                                            in 2002, and holds a BA (History) degree from the National University of Singapore (1999).
+                                        </p>
 
-                                    <p class="d-flex align-items-center">
-                                        <span class="mr-3 text-black">connect:</span>
-                                        <a href="mailto:jessicatan@ntu.edu.sg" class="envelope p-2"><span
-                                                class="icon-envelope"></span></a>
-                                        <a href="https://www.linkedin.com/in/jessica-tan-530594/" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                                    </p>
+                                        <p class="d-flex align-items-center">
+                                            <span class="mr-3 text-black">connect:</span>
+                                            <a href="mailto:jessicatan@ntu.edu.sg" class="envelope p-2"><span
+                                                    class="icon-envelope"></span></a>
+                                            <a href="https://www.linkedin.com/in/jessica-tan-530594/" class="linkedin p-2"><span class="icon-linkedin"></span></a>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -239,24 +244,29 @@
                         <div class="row">
                             <div class="col-lg-11 ml-auto mr-auto">
                                 <div class="pr-lg-0">
-                                    <h3>Joan Marie Kelly</h3>
-                                    <span class="mb-4 d-block">Senior Lecturer, School of Art, Design and Media</span>
-                                    <p>Joan Marie Kelly is a Senior Lecturer at the School of Art Design and Media. Kelly has been a guest teacher for News Media Lab practicum with Ms. Tan since the first semester the course was offered and will continue
-                                        to do so. She brings the experience and lens of the artist/designer to the design thinking process in the interdisciplinary classroom. She has been teaching across disciplines by coordinating and teaching an interdisciplinary
-                                        major called Information, Engineering and Media for the past 10 years, where she teaches design principles to engineering students. She teaches design principles to engineering students.</p>
-                                    <p>Joan Kelly has regular international art solo exhibitions in New York and New Delhi. Her group exhibitions span cities such as in Beijing, Italy, France, Bangladesh, Morocco, Mexico, Russia, Korea, Thailand, and Egypt.
-                                        Her artwork focuses on seeing and understanding the world through empathy. She takes this concept into minority communities by initiating participatory workshops, drawing out creativity from people while least expecting
-                                        it. It’s an inclusive way of empowering people with new awareness of their own creative gifts. She has worked several years with incarcerated girls in Fez, Morocco, and before that with women in brothels in Kolkata.
-                                        Her recent 2nd publication titled, Invisible Personas published by Authorhouse which includes 42 photographs of her paintings, and 4 essays’ by New York Art critic David Cohen, artist Sarah Schuster, art historian
-                                        Dr. Pamela Karimi and Cultural Theorist Dr. Bhaskar Mukhopadyay.</p>
-                                    <p class="d-flex align-items-center">
-                                        <span class="mr-3 text-black">connect:</span>
+                                    <div class="text-justify">
+                                        <h3>Joan Marie Kelly</h3>
+                                        <span class="mb-4 d-block">Senior Lecturer, School of Art, Design and
+                                            Media</span>
+                                        <p>Joan Marie Kelly is a Senior Lecturer at the School of Art Design and Media. Kelly has been a guest teacher for News Media Lab practicum with Ms. Tan since the first semester the course was offered and will continue
+                                            to do so. She brings the experience and lens of the artist/designer to the design thinking process in the interdisciplinary classroom. She has been teaching across disciplines by coordinating and teaching an
+                                            interdisciplinary major called Information, Engineering and Media for the past 10 years, where she teaches design principles to engineering students. She teaches design principles to engineering students.</p>
+                                        <p>Joan Kelly has regular international art solo exhibitions in New York and New Delhi. Her group exhibitions span cities such as in Beijing, Italy, France, Bangladesh, Morocco, Mexico, Russia, Korea, Thailand, and
+                                            Egypt. Her artwork focuses on seeing and understanding the world through empathy. She takes this concept into minority communities by initiating participatory workshops, drawing out creativity from people while
+                                            least expecting it. It’s an inclusive way of empowering people with new awareness of their own creative gifts. She has worked several years with incarcerated girls in Fez, Morocco, and before that with women
+                                            in brothels in Kolkata. Her recent 2nd publication titled, Invisible Personas published by Authorhouse which includes 42 photographs of her paintings, and 4 essays’ by New York Art critic David Cohen, artist
+                                            Sarah Schuster, art historian Dr. Pamela Karimi and Cultural Theorist Dr. Bhaskar Mukhopadyay.</p>
+                                        <p class="d-flex align-items-center">
+                                            <span class="mr-3 text-black">connect:</span>
 
-                                        <a href="mailto:jmkelly@ntu.edu.sg" class="envelope p-2"><span class="icon-envelope"></span></a>
-                                        <a href="https://www.youtube.com/channel/UCMfItPHq7kMYKD1B3nr5j_w?view_as=subscriber" class="youtube p-2"><span class="icon-youtube"></span></a>
-                                        <a href="http://www.joanmariekelly.net/" class="dribbble p-2"><span class="icon-dribbble"></span></a>
+                                            <a href="mailto:jmkelly@ntu.edu.sg" class="envelope p-2"><span
+                                                    class="icon-envelope"></span></a>
+                                            <a href="https://www.youtube.com/channel/UCMfItPHq7kMYKD1B3nr5j_w?view_as=subscriber" class="youtube p-2"><span class="icon-youtube"></span></a>
+                                            <a href="http://www.joanmariekelly.net/" class="dribbble p-2"><span
+                                                    class="icon-dribbble"></span></a>
 
-                                    </p>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
