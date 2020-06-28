@@ -1,3 +1,7 @@
+#nml-fs {
+    color: #8F1D3E;
+}
+
 #nav-showcase:hover~.dropdown-content {
     display: block;
 }
@@ -10,7 +14,7 @@
     display: none;
     position: relative;
     /* background-color: lightgray; */
-    margin-left: 20px;
+    margin-left: 45px;
     /*min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
     z-index: 1;

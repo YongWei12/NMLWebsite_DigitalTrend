@@ -1,59 +1,59 @@
-.full-image img{
+.full-image img {
     border-style: ridge;
     border-color: black;
     border-width: 3px;
 }
 
-#header-title h1{
+#header-title h1 {
     margin-top: 50px;
 }
 
-.full-image{
+.full-image {
     margin-right: 20px;
 }
 
-.full-image img{
+.full-image img {
     border-radius: 30px;
 }
 
-.indentPhoto{
+.indentPhoto {
     max-width: 100%;
     height: auto;
 }
+
 
 /* .YouTube{
     margin: auto;
     max-width: 70%;
     height: auto;
 } */
-.teamPhoto-container{
+
+.teamPhoto-container {
     padding-top: 60px;
 }
 
-
-#teamPhoto{
+#teamPhoto {
     border-radius: 30px;
     width: 90%;
     height: auto;
-
 }
 
-.project-detail-container{
+.project-detail-container {
     margin-bottom: 100px;
 }
 
-b{
-    color:#00848c ;
+b {
+    color: #F38C2F;
 }
-#github-button{
-    color: black; 
+
+#github-button {
+    color: black;
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
     padding: 5px;
-
 }
 
-#github-button:hover{
+#github-button:hover {
     background-color: lightgray;
 }
