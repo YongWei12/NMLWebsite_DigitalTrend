@@ -2,23 +2,27 @@
     max-width: 80%;
 } */
 
-#view-our-work {
-    background-color: #8F1D3E;
-    color: white;
-}
-
 .red-header {
     color: #8F1D3E;
 }
 
 #service-communication {
-    border-top: 2px solid #FEC63A;
+    border-top: 6px solid #FEC63A;
 }
 
 #service-design {
-    border-top: 2px solid #EA4037;
+    border-top: 6px solid #EA4037;
 }
 
 #service-development {
-    border-top: 2px solid #F38C2F;
+    border-top: 6px solid #F38C2F;
+}
+
+h2 {
+    color: #8F1D3E;
+    font-weight: 900;
+}
+
+.text-primary {
+    color: #8F1D3E;
 }
