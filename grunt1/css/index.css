@@ -35,6 +35,6 @@ h2 {
     font-style: normal;
 }
 
-.vcard-text span {
-    font-family: the-bold-font;
+.vcard-text span{
+    font-weight: 900;
 }
