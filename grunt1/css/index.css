@@ -26,3 +26,15 @@ h2 {
 .text-primary {
     color: #8F1D3E;
 }
+
+#about-section {
+    margin-top: 100px;
+}
+
+.nc-text p {
+    font-style: normal;
+}
+
+.vcard-text span {
+    font-family: the-bold-font;
+}

@@ -50,5 +50,15 @@
     color: white;
 }
 
+#website-logo {
+    max-width: 300px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.bullet-numbers {
+    color: #F38C2F;
+}
+
 
 /* #212529  color for individual items*/
