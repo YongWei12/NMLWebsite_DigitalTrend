@@ -51,9 +51,10 @@
 }
 
 #website-logo {
+    margin-top: 3px;
     max-width: 250px;
     height: auto;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .bullet-numbers {
