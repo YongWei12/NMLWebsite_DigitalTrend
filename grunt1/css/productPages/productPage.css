@@ -67,3 +67,8 @@ h1 {
 h2 {
     color: #8F1D3E;
 }
+
+#header-title h1{
+    font-size: 80px;
+    font-weight: 900;
+}
