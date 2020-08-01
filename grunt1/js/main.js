@@ -367,3 +367,23 @@
      stickyFillInit();
 
  });
+ function showMoreFunction() {
+    var Morebtn = document.getElementById("more-btn");
+    var Lessbtn = document.getElementById("less-btn");
+    var moreText = document.getElementById("show-more");
+    moreText.style.display = "flex";
+    Morebtn.style.display= "none"
+    Lessbtn.style.display= "inline"
+    btn.innerHTML='<i class="fas fa-chevron-circle-up"></i>'
+
+}
+
+function showLessFunction() {
+    var Lessbtn = document.getElementById("less-btn");
+    var Morebtn = document.getElementById("more-btn");
+    var moreText = document.getElementById("show-more");
+    moreText.style.display = "none";
+    Lessbtn.style.display= "none"
+    Morebtn.style.display="inline"
+
+}

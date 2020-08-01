@@ -61,5 +61,21 @@
     color: #F38C2F;
 }
 
+#show-more{
+    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#more-btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#less-btn{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* #212529  color for individual items*/

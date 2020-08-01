@@ -28,7 +28,7 @@ h2 {
 }
 
 #about-section {
-    margin-top: 150px;
+    margin-top: 20px;
 }
 
 .nc-text p {
@@ -37,4 +37,8 @@ h2 {
 
 .vcard-text span {
     font-weight: 900;
+}
+
+#industry-partners .section-title{
+    margin-top: 50px;
 }
