@@ -1,81 +1,88 @@
 #nml-fs {
-    color: #8F1D3E;
+  color: #8f1d3e;
 }
 
-#nav-showcase:hover~.dropdown-content {
-    display: block;
+#nav-showcase:hover ~ .dropdown-content {
+  display: block;
 }
 
 .dropdown-content:hover {
-    display: block;
+  display: block;
 }
 
 .dropdown-content {
-    display: none;
-    position: relative;
-    /* background-color: lightgray; */
-    margin-left: 45px;
-    /*min-width: 160px;
+  display: none;
+  position: relative;
+  /* background-color: lightgray; */
+  margin-left: 45px;
+  /*min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
-    z-index: 1;
+  z-index: 1;
 }
-
 
 /* Links inside the dropdown */
 
 .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 5px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  float: none;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-    color: #f1c111;
+  color: #f1c111;
 }
 
 @media screen and (max-width: 600px) {
-    #nav-showcase:hover .dropdown-content {
-        display: none;
-    }
-    #nav-showcase i {
-        display: none;
-    }
+  #nav-showcase:hover .dropdown-content {
+    display: none;
+  }
+  #nav-showcase i {
+    display: none;
+  }
 }
 
 #view-our-work {
-    background-color: #8F1D3E;
-    color: white;
+  background-color: #8f1d3e;
+  color: white;
 }
 
 #website-logo {
-    margin-top: 3px;
-    max-width: 250px;
-    height: auto;
-    /* padding-bottom: 5px; */
+  margin-top: 3px;
+  max-width: 250px;
+  height: auto;
+  /* padding-bottom: 5px; */
 }
 
 .bullet-numbers {
-    color: #F38C2F;
+  color: #f38c2f;
 }
 
-#show-more{
-    display: none;
-    padding-left: 15px;
-    padding-right: 15px;
+#show-more {
+  display: none;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-#more-btn{
-    margin-left: auto;
-    margin-right: auto;
+#more-btn {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#less-btn{
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
+#less-btn {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inverted-comma {
+  max-width: 100px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -20px;
+  opacity: 0.4;
 }
 
 /* #212529  color for individual items*/
