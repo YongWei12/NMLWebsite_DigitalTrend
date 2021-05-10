@@ -53,7 +53,10 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
     <div class="site-wrap">
-        <div class="site-mobile-menu site-navbar-target">
+        <!-- To be loaded from ProductPages/shared/menu.html -->
+        <div id="nav-bar"></div>
+
+        <!-- <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
                 <div class="site-mobile-menu-close mt-3">
                     <span class="icon-close2 js-menu-toggle"></span>
@@ -61,7 +64,6 @@
             </div>
             <div class="site-mobile-menu-body"></div>
         </div>
-        <!-- .site-mobile-menu -->
 
 
         <div class="site-navbar-wrap">
@@ -89,7 +91,6 @@
                                         <li><a href="../index.html#about-section" class="nav-link">About Us</a></li>
                                         <li><a href="../index.html#what-we-do-section" class="nav-link">The Team</a>
                                         </li>
-                                        <!-- <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li> -->
                                         <li>
                                             <a href="../index.html#portfolio-section" class="nav-link" id="nav-showcase">Portfolio <i class="fas fa-chevron-down"></i></a>
                                             <div class="dropdown-content">
@@ -111,7 +112,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
@@ -359,10 +360,6 @@
 
     <!--Loading the Jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!--Load Nav Bar-->
-    <script>
-        $("#nav-bar").load("./shared/menu.html");
-    </script>
     <!-- SCRIPTS -->
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/aos.js"></script>
@@ -383,7 +380,15 @@
 
     <script src="../js/jquery.fancybox.min.js"></script>
     <script src="../js/main.js"></script>
-
+    <!--Load Nav Bar-->
+    <script>
+        $(document).ready(function () {
+            $('#nav-bar').load("./shared/menu.html", function () {
+                console.log("navbar code loaded!");
+                siteMenuClone();
+            });
+        });
+    </script>
 
 
 </body>
